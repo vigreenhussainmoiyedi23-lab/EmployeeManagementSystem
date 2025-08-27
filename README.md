@@ -1,17 +1,68 @@
-<<<<<<< HEAD
-# React + Vite
+# Employee Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React-based Employee Management System** where:
 
-Currently, two official plugins are available:
+- 🔑 Admin can create, delete, and assign tasks to employees.
+- 👨‍💼 Employees can accept, reject, complete, or fail tasks.
+- 📊 Task counters automatically update (New, Active, Completed, Failed).
+- 💾 Data persists using **LocalStorage**.
+- 🚀 Hosted live on [Vercel](https://employee-management-system-umber-mu.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# EmployeeManagementSystem
-an employee management system made using react where admin can create or delete task and the employee can accept.reject,mark it as complete .etc.
->>>>>>> 6a2f73a3f20155887aba7817894d3866aa16ca7e
+### 👨‍💼 Employee Dashboard
+- View assigned tasks.
+- Accept or reject tasks.
+- Mark tasks as **completed** or **failed**.
+- Live task counters (Active, Completed, Failed, Pending).
+
+### 🛠️ Admin Dashboard
+- Login as **admin**.
+- Assign tasks to employees.
+- Delete tasks.
+- View live task counters for each employee.
+
+---
+
+## Login Credentials for Testing
+
+### Admin
+- Email: `admin@company.com`  
+- Password: `Admin@123`
+
+### Employees
+1. Email: `alice.dev@example.com` | Password: `Alice@123`  
+2. Email: `michael.dev@example.com` | Password: `Michael@456`  
+3. Email: `sophia.dev@example.com` | Password: `Sophia@789`
+
+> You can log in using any of the above credentials to test the project.
+
+---
+
+## Screenshots
+
+_Add screenshots of your project here for better presentation:_
+
+- Login Page  
+- Admin Dashboard  
+- Employee Dashboard  
+- Task counters  
+
+---
+
+## Tech Stack
+- ⚛️ **React.js (Vite)**  
+- 🎨 **Tailwind CSS**  
+- 🗄️ **LocalStorage** for data persistence  
+
+---
+
+## Getting Started
+
+### Clone the Repo
+```bash
+git clone https://github.com/vigreenhussainmoiyedi23-lab/employeeemanagementsystem.git
+cd employeeemanagementsystem
+Updated README with project details and credentials
