@@ -41,17 +41,6 @@ A **React-based Employee Management System** where:
 
 ---
 
-## Screenshots
-
-_Add screenshots of your project here for better presentation:_
-
-- Login Page  
-- Admin Dashboard  
-- Employee Dashboard  
-- Task counters  
-
----
-
 ## Tech Stack
 - ⚛️ **React.js (Vite)**  
 - 🎨 **Tailwind CSS**  
